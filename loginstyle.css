@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bgteacher.jpg'); /* Change to your desired image URL */
+    background-color: #e0f7fa; /* Fallback color */
+    background-size: cover; /* Cover the entire background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background: white;
+    padding-top:50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 320px; /* Slightly wider for better spacing */
+    text-align: center;
+    border: 2px solid #4CAF50; /* Highlight border */
+}
+
+h1 {
+
+    color: #4CAF50; /* Header color */
+    
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 18px; /* Slightly larger icon */
+    color: #4CAF50; /* Icon color */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 80%;
+    padding: 12px 10px 12px 40px; /* Padding for icons */
+    border: 1px solid #4CAF50; /* Highlight border for input */
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border-color: #388e3c; /* Darker border on focus */
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 50%;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+a{
+float: right;
+}
+
